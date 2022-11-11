@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/Users/andreasbalevik/Development/minid/minid.digdir.no",
+	"sourceRoot": "/home/runner/work/minid.digdir.no/minid.digdir.no",
 	"sources": [
 		"themes/digdir-hugo-theme/assets/sass/main.scss",
 		"themes/digdir-hugo-theme/assets/sass/vendors/bootstrap.scss",
