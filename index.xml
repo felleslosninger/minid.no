@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WIP on MinID</title>
+    <link>http://minid.digdir.no/</link>
+    <description>Recent content in WIP on MinID</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>no</language><atom:link href="http://minid.digdir.no/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
