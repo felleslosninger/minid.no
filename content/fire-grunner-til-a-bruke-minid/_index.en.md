@@ -35,5 +35,5 @@ With an electronic ID, you can, for example
  - Sign agreements, contracts and other important documents digitally.
  - Report a move or change your tax card at Skatteetaten.no.
 
-You can have several electronic IDs that you can use to log in to public services. You can choose from five options. You can read more about that at [Norge.no](https://www.norge.no/elektronisk-id).
+You can have several electronic IDs that you can use to log in to public services. You can choose from five options. You can read more about that at [Norge.no](https://www.norge.no/en/digital-citizen/electronic-id).
 
