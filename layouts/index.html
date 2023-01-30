@@ -95,7 +95,7 @@
             {{ $usefull_title := (i18n "usefull") }}
             {{ partial "components/component-title.html" (dict "context" . "title" $usefull_title) }}
 
-            <div class="row">
+            <div class="row gy-3">
 
                 {{ with .Site.GetPage "/hva-er-en-elektronisk-identitet" }}
                 <div class="col-lg-6">

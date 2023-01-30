@@ -12,7 +12,7 @@ banner:
 
 contribute: 
     title: Hjelp oss å forbedre nettstedet
-    text: Nettstedet vårt ligger åpent på github. Her kan du bidra med endringer på tekst, kode eller ny funksjonalitet. [Se nettstedets kildekode](https://github.com/felleslosninger/minid.digdir.no)
+    text: Nettstedet vårt ligger åpent på github. Her kan du bidra med endringer på tekst, kode eller ny funksjonalitet. [Se nettstedets kildekode](https://github.com/felleslosninger/minid.digdir.no).
     image:
         src: /illustrations/illustration-05.png
         alt: Illustrasjon av figurer som samarbeider
