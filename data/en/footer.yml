@@ -1,0 +1,15 @@
+digdir:
+  - title: About Digitaliseringsdirektoratet
+    url: 'https://www.digdir.no/digdir/om-digitaliseringsdirektoratet/1547'
+  - title: Work for us
+    url: 'https://www.digdir.no/digdir/jobbe-i-digitaliseringsdirektoratet/705'
+  - title: Blog
+    url: 'https://www.digdir.no/node/1340'
+
+about:
+  - title: Digdirs privacy statement
+    url: https://www.digdir.no/om-oss/personvernerklaering/706
+  - title: Digdirs information cookies
+    url: https://www.digdir.no/om-oss/informasjonskapsler/707
+  - title: Declaration of availability
+    url: https://uustatus.no/nb/erklaringer/publisert/75743196-5c35-4ae9-9dc1-93d907bd7482
