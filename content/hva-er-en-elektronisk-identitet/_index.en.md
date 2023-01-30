@@ -7,7 +7,7 @@ description: MinID is your personal, electronic ID that gives access to a number
 url: /en/what-is-an-electronic-identity
 
 teaser: 
-    text: MinID is your personal, electronic ID that gives access to a number of public services from the state and municipality. Here you will find information on what you can use it for.
+    text: MinID is your personal, electronic ID that gives access to a number of public services from the state and municipality.
     image:
         src: /illustrations/illustration-01.png
         alt: Illustration of character reading

@@ -24,16 +24,7 @@
     <div class="component">
         <div class="container">
 
-            {{ with .Site.GetPage "/kom-i-gang" }}
-            <div class="row text-center">
-                <div class="divider">
-                    <div class="divider__title">
-                        <h2>{{.Title}}</h2>
-                        <div class="line"></div>
-                    </div>
-                </div>
-            </div>
-            {{ end }}
+            {{ partial "components/component-title.html" (dict "context" . "title" .Title) }}
 
             <div class="row gy-3">
 
@@ -97,86 +88,66 @@
         </div>
     </div>
 
-    {{ with .Site.GetPage "/hva-er-en-elektronisk-identitet" }}
+
+
+    <div class="component">
+        <div class="container">
+            {{ $usefull_title := (i18n "usefull") }}
+            {{ partial "components/component-title.html" (dict "context" . "title" $usefull_title) }}
+
+            <div class="row">
+
+                {{ with .Site.GetPage "/hva-er-en-elektronisk-identitet" }}
+                <div class="col-lg-6">
+                    <div class="navigation-card">
+                        <a class="navigation-card__content navigation-card__content--neutral" href="{{.RelPermalink}}">
+                            <h3 class="navigation-card__title navigation-card__title--small">
+                                {{.Title}}
+                            </h3>
+                            <p class="navigation-card__desc navigation-card__desc--small">
+                                {{.Params.teaser.text}}
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                {{ end }}
+
+                {{ with .Site.GetPage "/fire-grunner-til-a-bruke-minid" }}
+                <div class="col-lg-6">
+                    <div class="navigation-card">
+                        <a class="navigation-card__content navigation-card__content--neutral" href="{{.RelPermalink}}">
+                            <h3 class="navigation-card__title navigation-card__title--small">
+                                {{.Title}}
+                            </h3>
+                            <p class="navigation-card__desc navigation-card__desc--small">
+                                {{.Params.teaser.text}}
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                {{ end }}
+                
+            </div>
+        </div>
+    </div>
+
+    {{ with .Site.GetPage "/" }}
     <div class="component">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 my-auto">
-                    <div class="content__container pt-0">
-                        <h2 class="mt-0">
-                            {{.Title}}
-                        </h2>
-                        <p>{{.Params.teaser.text}}</p>
-                        <div class="mt-4">
-                            <a href="{{.RelPermalink}}" class="button">
-                                {{ i18n "les-mer" }}
-                            </a>
-                        </div>
+                    <div class="content__container">
+                        <h2 class="mt-0">{{.Params.contribute.title}}</h2>
+                        <p>{{.Params.contribute.text | markdownify}}</p>
                     </div>
                 </div>
                 <div class="col-lg-6 d-flex justify-content-md-center justify-content-lg-end">
-                    {{ partial "components/image.html" (dict "context" . "image" .Params.teaser.image) }}
+                    {{ partial "components/image.html" (dict "context" . "image" .Params.contribute.image) }}
                 </div>
             </div>
         </div>
     </div>
     {{ end }}
 
-    {{ with .Site.GetPage "/fire-grunner-til-a-bruke-minid" }}
-    <div class="component">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 d-lg-block d-md-none d-sm-none d-none">
-                    <div class="row g-3">
-                        {{ range .Params.teaser_icons }}
-                        <div class="col-sm-6">
-                            <div class="column text-center">
-                                <div class="p-4">
-                                    <img alt="{{.alt}}" style="height:45px;margin-bottom:15px;" src="{{.img}}" /><br>
-                                    <label>{{.label}}</label>
-                                </div>
-                            </div>
-                        </div>
-                        {{ end }}
-                    </div>
-                </div>
-                <div class="col-lg-5 offset-lg-1 my-auto">
-                    <div class="content__container">
-                        <h2 class="mt-0">{{.Title}}</h2>
-                        <p>{{.Params.teaser.text}}</p>
-                        <div class="mt-4">
-                            <a href="{{.RelPermalink}}" class="button">
-                                {{ i18n "les-mer" }}
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    {{ end }}
-
-    {{ with .Site.GetPage "/hjelp-oss-a-forbedre-nettstedet" }}
-    <div class="component">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 my-auto">
-                    <div class="content__container">
-                        <h2 class="mt-0">{{.Title}}</h2>
-                        <p>{{.Params.teaser.text}}</p>
-                        <div class="mt-4">
-                            <a href="{{.RelPermalink}}" class="button">
-                                {{ i18n "les-mer" }}
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 d-flex justify-content-md-center justify-content-lg-end">
-                    {{ partial "components/image.html" (dict "context" . "image" .Params.teaser.image) }}
-                </div>
-            </div>
-        </div>
-    </div>
-    {{ end }}
 </div>
 {{ end }}
