@@ -1,5 +1,5 @@
 ---
-title: Hvordan endre inngloggingsmåte?
+title: Hvordan endre innloggingsmetode?
 ---
 
 MinID vil framover ha to ulike innloggingsmetoder som kan brukes:
