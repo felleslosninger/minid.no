@@ -16,7 +16,7 @@ menu:
         name: 2. Registrer deg
 ---
 
-# Registrering deg
+# Registrer deg
 
 For å opprette MinID går du frem på følgende måte:   
 
