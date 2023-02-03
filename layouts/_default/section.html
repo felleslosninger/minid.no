@@ -18,7 +18,9 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-7">
-                {{.Content}}
+                <div class="markdown">
+                    {{.Content}}
+                </div>
             </div>
 
             {{ with .Params.related_pages }}

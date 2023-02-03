@@ -18,14 +18,15 @@
 <div class="component">
     <div class="container">
         <div class="row">
-            <div class="col-lg-7">
+            <div class="col-lg-6">
                 {{ with .Pages }}
                 <ul class="navigation__links">
                     {{ range . }}
-                    <li>
-                        <label></label>
-                        <a class="h5" href="{{.RelPermalink}}">{{.Title}}</a>
-                    </li>
+                    <a href="{{.RelPermalink}}">
+                        <li>
+                            {{.Title}}
+                        </li>
+                    </a>
                     {{ end }}
                 </ul>
                 {{ end }}
