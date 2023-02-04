@@ -33,8 +33,11 @@
                     <div class="navigation-card">
                         <a class="navigation-card__content" href="{{.RelPermalink}}">
                             <div class="navigation-card__img-container navigation-card__img-container--small">
-                                <img src="{{.Site.BaseURL}}{{.Params.navigation_link.icon}}"
-                                    alt="{{.Params.navigation_link.alt}}" />
+
+                                {{ $icon := resources.GetMatch .Params.navigation_link.icon }}
+                                {{ $icon_resize := $icon.Resize "37x44 Lanczos" }}
+                                <img src="{{$icon_resize.RelPermalink}}" height="{{$icon_resize.Height}}" width="{{$icon_resize.Width}}" alt="{{.Params.navigation_link.alt}}" loading="lazy" />
+                                
                             </div>
                             <h3 class="navigation-card__title navigation-card__title--small">
                                 {{.Title}}
@@ -52,8 +55,9 @@
                     <div class="navigation-card">
                         <a class="navigation-card__content" href="{{.RelPermalink}}">
                             <div class="navigation-card__img-container navigation-card__img-container--small">
-                                <img src="{{.Site.BaseURL}}{{.Params.navigation_link.icon}}"
-                                    alt="{{.Params.navigation_link.alt}}" />
+                                {{ $icon := resources.GetMatch .Params.navigation_link.icon }}
+                                {{ $icon_resize := $icon.Resize "27x44 Lanczos" }}
+                                <img src="{{$icon_resize.RelPermalink}}" height="{{$icon_resize.Height}}" width="{{$icon_resize.Width}}" alt="{{.Params.navigation_link.alt}}" loading="lazy"/>
                             </div>
                             <h3 class="navigation-card__title navigation-card__title--small">
                                 {{.Title}}
@@ -71,8 +75,9 @@
                     <div class="navigation-card">
                         <a class="navigation-card__content" href="{{.RelPermalink}}">
                             <div class="navigation-card__img-container navigation-card__img-container--small">
-                                <img src="{{.Site.BaseURL}}{{.Params.navigation_link.icon}}"
-                                    alt="{{.Params.navigation_link.alt}}" />
+                                {{ $icon := resources.GetMatch .Params.navigation_link.icon }}
+                                {{ $icon_resize := $icon.Resize "45x44 Lanczos" }}
+                                <img src="{{$icon_resize.RelPermalink}}" height="{{$icon_resize.Height}}" width="{{$icon_resize.Width}}" alt="{{.Params.navigation_link.alt}}" loading="lazy"/>
                             </div>
                             <h3 class="navigation-card__title navigation-card__title--small">
                                 {{.Title}}
