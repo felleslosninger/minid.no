@@ -11,10 +11,10 @@ navigation_link:
     alt: Icon of app on phone
     text: Download the app and use MinID on mobile.
 
-url: /en/get-started/minid-app
+url: /en/get-started/minid-app/
 steps:
     next_step: null
-    previous_step: /en/get-started/registration
+    previous_step: en/get-started/registration/
 menu:
     supervisor:
         weight: 30

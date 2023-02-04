@@ -5,7 +5,7 @@ ingress: Here you will find answers to frequently asked questions
 # SEO
 description: Here you will find answers to frequently asked questions
 
-url: /en/help
+url: /en/help/
 
 navigation_link:
     icon: /icons/Samtale.png

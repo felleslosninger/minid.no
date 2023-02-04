@@ -8,8 +8,8 @@ navigation_link:
     text: Følg veilederen for å opprette MinID bruker
 
 steps:
-    next_step: /kom-i-gang/minid-paa-mobil
-    previous_step: /kom-i-gang
+    next_step: kom-i-gang/minid-paa-mobil/
+    previous_step: kom-i-gang/
 menu:
     supervisor:
         weight: 2

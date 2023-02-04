@@ -4,7 +4,7 @@ title: What is an electronic identity?
 # SEO
 description: MinID is your personal, electronic ID that gives access to a number of public services from the state and municipality.
 
-url: /en/what-is-an-electronic-identity
+url: /en/what-is-an-electronic-identity/
 
 teaser: 
     text: MinID is your personal, electronic ID that gives access to a number of public services from the state and municipality.

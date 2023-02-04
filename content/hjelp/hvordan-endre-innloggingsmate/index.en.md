@@ -1,7 +1,7 @@
 ---
 title: How to change login method?
 
-url: /en/help/how-to-change-login-method
+url: /en/help/how-to-change-login-method/
 
 ---
 

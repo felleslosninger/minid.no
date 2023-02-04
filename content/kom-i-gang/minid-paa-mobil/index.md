@@ -14,7 +14,7 @@ navigation_link:
 
 steps:
     next_step: null
-    previous_step: /kom-i-gang/registrer-deg
+    previous_step: kom-i-gang/registrer-deg/
 menu:
     supervisor:
         weight: 30

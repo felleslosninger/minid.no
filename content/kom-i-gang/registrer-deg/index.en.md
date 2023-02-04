@@ -7,10 +7,10 @@ navigation_link:
     alt: Icon of app on phone
     text: Follow the guide to create a MinID user
 
-url: /en/get-started/registration
+url: /en/get-started/registration/
 steps:
-    next_step: /en/get-started/minid-app
-    previous_step: /en/get-started
+    next_step: en/get-started/minid-app/
+    previous_step: en/get-started/
 menu:
     supervisor:
         weight: 2

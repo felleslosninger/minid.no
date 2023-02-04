@@ -8,9 +8,9 @@ keywords: "registrate"
 
 banner__img: /illustrations/illustration-03.png
 
-url: /en/get-started
+url: /en/get-started/
 steps:
-    next_step: /en/get-started/registration
+    next_step: en/get-started/registration/
     previous_step: null
 menu:
     main:
