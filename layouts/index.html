@@ -24,8 +24,9 @@
     <div class="component">
         <div class="container">
 
+            {{ with .Site.GetPage "/kom-i-gang"}}
             {{ partial "components/component-title.html" (dict "context" . "title" .Title) }}
-
+            {{ end }}
             <div class="row gy-3">
 
                 {{ with .Site.GetPage "/kom-i-gang/registrer-deg"}}
