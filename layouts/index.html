@@ -48,7 +48,7 @@
                         <a class="navigation-card__content navigation-card__content--secondary" href="{{.RelPermalink}}">
                             <div class="navigation-card__img-container navigation-card__img-container--small">
                                 {{ $icon := resources.GetMatch .Params.navigation_link.icon }}
-                                {{ $icon_resize := $icon.Resize "55x64 Lanczos" }}
+                                {{ $icon_resize := $icon.Resize "50x64 Lanczos" }}
                                 <img src="{{$icon_resize.RelPermalink}}" height="{{$icon_resize.Height}}" width="{{$icon_resize.Width}}" alt="{{.Params.navigation_link.alt}}" loading="lazy"/>
                             </div>
                             <h3 class="navigation-card__title navigation-card__title--small">
@@ -68,7 +68,7 @@
                         <a class="navigation-card__content navigation-card__content--secondary" href="{{.RelPermalink}}">
                             <div class="navigation-card__img-container navigation-card__img-container--small">
                                 {{ $icon := resources.GetMatch .Params.navigation_link.icon }}
-                                {{ $icon_resize := $icon.Resize "70x64 Lanczos" }}
+                                {{ $icon_resize := $icon.Resize "65x64 Lanczos" }}
                                 <img src="{{$icon_resize.RelPermalink}}" height="{{$icon_resize.Height}}" width="{{$icon_resize.Width}}" alt="{{.Params.navigation_link.alt}}" loading="lazy"/>
                             </div>
                             <h3 class="navigation-card__title navigation-card__title--small">
