@@ -2,41 +2,32 @@
 
 <div class="page__home">
 
-    {{ with .Site.GetPage "/" }}
-    <div class="component" style="background-color:#a5d6fb;">
+    <div class="component component__figure-2 component__figure--right component__figure--big">
+        {{ partial "components/figures" . }}
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6 my-auto">
-                    <h1 class="">{{.Title}}</h1>
-                    <p class="ingress mb-5 mb-lg-0">{{.Params.ingress}}
-                    </p>
-                </div>
-                <div class="col-lg-6  d-flex justify-content-md-center justify-content-lg-end">
-                    <div style="margin-bottom: -48px!important;">
-                        {{ partial "components/image.html" (dict "context" . "image" .Params.banner.image) }}
+            {{ with .Site.GetPage "/" }}
+            <div class="row text-center">
+                <div class="divider">
+                    <div class="divider__title">
+                        <h2 style="font-size: 36px!important;">{{.Title}}</h2>
+                        <div class="line line--secondary"></div>
+                        <p class="ingress" style="max-width:750px;margin:auto;">{{.Params.ingress}}</p>
+                        <br><br>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    {{ end }}
-
-    <div class="component">
-        <div class="container">
-
-            {{ with .Site.GetPage "/kom-i-gang"}}
-            {{ partial "components/component-title.html" (dict "context" . "title" .Title) }}
             {{ end }}
+
             <div class="row gy-3">
 
                 {{ with .Site.GetPage "/kom-i-gang/registrer-deg"}}
                 <div class="col-lg-4">
                     <div class="navigation-card">
-                        <a class="navigation-card__content" href="{{.RelPermalink}}">
+                        <a class="navigation-card__content navigation-card__content--secondary" href="{{.RelPermalink}}">
                             <div class="navigation-card__img-container navigation-card__img-container--small">
 
                                 {{ $icon := resources.GetMatch .Params.navigation_link.icon }}
-                                {{ $icon_resize := $icon.Resize "37x44 Lanczos" }}
+                                {{ $icon_resize := $icon.Resize "60x64 Lanczos" }}
                                 <img src="{{$icon_resize.RelPermalink}}" height="{{$icon_resize.Height}}" width="{{$icon_resize.Width}}" alt="{{.Params.navigation_link.alt}}" loading="lazy" />
                                 
                             </div>
@@ -54,10 +45,10 @@
                 {{ with .Site.GetPage "/kom-i-gang/minid-paa-mobil" }}
                 <div class="col-lg-4">
                     <div class="navigation-card">
-                        <a class="navigation-card__content" href="{{.RelPermalink}}">
+                        <a class="navigation-card__content navigation-card__content--secondary" href="{{.RelPermalink}}">
                             <div class="navigation-card__img-container navigation-card__img-container--small">
                                 {{ $icon := resources.GetMatch .Params.navigation_link.icon }}
-                                {{ $icon_resize := $icon.Resize "27x44 Lanczos" }}
+                                {{ $icon_resize := $icon.Resize "55x64 Lanczos" }}
                                 <img src="{{$icon_resize.RelPermalink}}" height="{{$icon_resize.Height}}" width="{{$icon_resize.Width}}" alt="{{.Params.navigation_link.alt}}" loading="lazy"/>
                             </div>
                             <h3 class="navigation-card__title navigation-card__title--small">
@@ -74,10 +65,10 @@
                 {{ with .Site.GetPage "/hjelp" }}
                 <div class="col-lg-4">
                     <div class="navigation-card">
-                        <a class="navigation-card__content" href="{{.RelPermalink}}">
+                        <a class="navigation-card__content navigation-card__content--secondary" href="{{.RelPermalink}}">
                             <div class="navigation-card__img-container navigation-card__img-container--small">
                                 {{ $icon := resources.GetMatch .Params.navigation_link.icon }}
-                                {{ $icon_resize := $icon.Resize "45x44 Lanczos" }}
+                                {{ $icon_resize := $icon.Resize "70x64 Lanczos" }}
                                 <img src="{{$icon_resize.RelPermalink}}" height="{{$icon_resize.Height}}" width="{{$icon_resize.Width}}" alt="{{.Params.navigation_link.alt}}" loading="lazy"/>
                             </div>
                             <h3 class="navigation-card__title navigation-card__title--small">
@@ -93,8 +84,6 @@
             </div>
         </div>
     </div>
-
-
 
     <div class="component">
         <div class="container">
@@ -138,7 +127,8 @@
     </div>
 
     {{ with .Site.GetPage "/" }}
-    <div class="component">
+    <div class="component component__figure-3">
+        {{ partial "components/figures" . }}
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 my-auto">
