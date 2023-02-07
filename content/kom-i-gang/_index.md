@@ -25,5 +25,5 @@ sitemap:
 # Introduksjon
 MinID er en personlig elektronisk ID som gir tilgang til offentlige tjenester.
 
-Om du skal få utført tjenester fra stat og kommune digitalt, må du ha en elektronisk ID for å kunne logge deg inn. Denne bekrefter at du er den du utgir deg for å være. For å registrere MinID bruker trenger du:
+Om du skal få utført tjenester fra stat og kommune digitalt, må du ha en elektronisk ID for å kunne logge deg inn. Denne bekrefter at du er den du utgir deg for å være. For å registrere MinID-bruker trenger du:
 - Fødselsnummer
