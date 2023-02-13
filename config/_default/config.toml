@@ -10,9 +10,6 @@ defaultContentLanguage = 'no'
 
 enableRobotsTXT = true
 
-[minify]
-  minifyOutput = true
-  
 [sitemap]
   changefreq = 'monthly'
   filename = 'sitemap.xml'
