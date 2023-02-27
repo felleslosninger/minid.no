@@ -4,7 +4,7 @@
 # - info
 # - success
 
-- enabled: false
+- enabled: true
   name: pin-expires-alert-message-NO
-  type: warning
-  text: <b>Vi har faset ut pin-koder:</b> Alle pin-koder er blitt ugyldige, og kan ikke lenger brukes til innlogging. For å fortsette å bruke MinID, må du endre innloggingsmåte til engangskode på SMS eller MinID-app. <a href="/hjelp/hvordan-endre-innloggingsmate/"> Les mer om hvordan du kan endre innloggingsmåte</a>
+  type: info
+  text: <b>Driftsvarsel:</b> Bestilling og registrering med Aktiveringsbrev er utilgjengelig 28. Februar i tidsrommet 08:30 - 09:30.
