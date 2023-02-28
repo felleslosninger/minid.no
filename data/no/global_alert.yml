@@ -4,7 +4,7 @@
 # - info
 # - success
 
-- enabled: true
+- enabled: false
   name: pin-expires-alert-message-NO
   type: info
   text: <b>Driftsvarsel:</b> Bestilling og registrering med Aktiveringsbrev er utilgjengelig 28. Februar i tidsrommet 08:30 - 10:00.

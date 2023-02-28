@@ -4,7 +4,7 @@
 # - info
 # - success
 
-- enabled: true
+- enabled: false
   name: pin-expires-alert-message-EN
   type: info
   text: <b>Operation notice:</b> Ordering and registration with Activation letter is unavailable on 28 February between 08:30 and 09:30.
