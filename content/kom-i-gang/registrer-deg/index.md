@@ -21,7 +21,7 @@ menu:
 For å opprette MinID går du frem på følgende måte:   
 
 Bestill et aktiveringsbrev:
-- Gå til [aktiveringsbrev.minid.digdir.no](https://aktiveringsbrev.minid.digdir.no/order)  
+- Gå til [aktiveringsbrev.minid.no](https://aktiveringsbrev.minid.no/order)  
 - Taste inn fødselsnummer (11 siffer) 
 - Aktiveringsbrev med kode sendes til folkeregistrert adresse
 
