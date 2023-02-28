@@ -18,7 +18,7 @@ cd minid.digdir.no
 
 3. Install requirements
 ```shell
-npm instal
+npm install
 ```
 
 4. Run site locally
