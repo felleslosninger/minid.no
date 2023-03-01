@@ -1,5 +1,5 @@
 ---
-title: Fire grunner til å bruke MinID
+title: Fem grunner til å bruke MinID
 
 # SEO
 description: MinID er din personlige, elektroniske ID som gir tilgang til en rekke offentlige tjenester fra stat og kommune.

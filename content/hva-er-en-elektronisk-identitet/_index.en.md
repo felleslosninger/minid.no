@@ -13,7 +13,7 @@ teaser:
         alt: Illustration of character reading
 
 related_pages:
-    - /fire-grunner-til-a-bruke-minid
+    - /fem-grunner-til-a-bruke-minid
     - /kom-i-gang/registrer-deg
 
 ---

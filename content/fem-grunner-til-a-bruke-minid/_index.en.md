@@ -1,5 +1,7 @@
 ---
-title: Four reasons to use MinID
+title: Five reasons to use MinID
+
+url: /en/five-reasons-to-use-minid/
 
 # SEO
 description: MinID is your personal, electronic ID that gives access to a number of public services from the state and municipality.

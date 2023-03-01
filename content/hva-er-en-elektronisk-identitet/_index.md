@@ -12,7 +12,7 @@ teaser:
         alt: Illustrasjon av figurer som leser
 
 related_pages:
-    - /fire-grunner-til-a-bruke-minid
+    - /fem-grunner-til-a-bruke-minid
     - /kom-i-gang/registrer-deg
 ---
 
