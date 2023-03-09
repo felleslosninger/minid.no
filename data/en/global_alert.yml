@@ -4,7 +4,7 @@
 # - info
 # - success
 
-- enabled: false
-  name: pin-expires-alert-message-EN
-  type: info
-  text: <b>Operation notice:</b> Ordering and registration with Activation letter is unavailable on 28 February between 08:30 and 09:30.
+- enabled: true
+  name: alert-message-EN
+  type: warning
+  text: <b>Changes in SMS sender:</b> From now on, when you recieve the one-time code by SMS from MinID, the sender will be listed as +47 800 30 300, and not "Digdir".
