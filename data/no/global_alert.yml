@@ -4,7 +4,7 @@
 # - info
 # - success
 
-- enabled: true
+- enabled: false
   name: alert-message-NO
   type: warning
   text: <b>Endring i avsender på SMS:</b> Når du mottar engangskode på SMS for MinID, vil avsender være oppført som +47 800 30 300, og ikke "Digdir". 
