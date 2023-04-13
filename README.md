@@ -1,6 +1,7 @@
 # MinID Product page
 
-MinID landing and product page.
+MinID landing page.   
+Visit https://minid.no/
 
 ## Run site locally:
 
