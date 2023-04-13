@@ -3,7 +3,7 @@
 MinID landing page.   
 Visit https://minid.no/
 
-## Run site locally:
+## Development:
 
 Requirements: [Hugo](https://gohugo.io/) 
 
