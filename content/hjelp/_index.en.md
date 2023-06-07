@@ -1,6 +1,5 @@
 ---
 title: Help
-ingress: Here you will find answers to frequently asked questions
 
 # SEO
 description: Here you will find answers to frequently asked questions
@@ -16,4 +15,4 @@ menu:
         weight: 20
 ---
 
-You can find answers on the [digdir help pages](https://eid.difi.no/en/minid)
+You can find answers on [digdirs help pages](https://eid.difi.no/en/minid)
