@@ -1,6 +1,5 @@
 ---
 title: Hjelp
-ingress: Her finner du svar på ofte stilte spørsmål
 
 # SEO
 description: Her finner du svar på ofte stilte spørsmål
@@ -15,4 +14,4 @@ menu:
 
 ---
 
-Du kan og finne svar på [hjelpesidene til digdir](https://eid.difi.no/nb/minid).
+Du finner svar på [hjelpesidene til digdir](https://eid.difi.no/nb/minid).
