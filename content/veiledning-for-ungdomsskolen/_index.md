@@ -2,10 +2,10 @@
 title: Er du rådgiver eller lærer?
 
 # SEO
-description:  Informasjon for deg som er rådgiver eller lærer.
+description:  Oppdatert informasjon for rådgivere og lærere ved ungdomsskolen angående MinID.
 
 teaser: 
-    text: Informasjon for deg som er rådgiver eller lærer.
+    text: Nyttig veiledning for rådgivere og lærere til håndtering av MinID for elever.
 
 ---
 
