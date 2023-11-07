@@ -8,6 +8,7 @@ description: Information about MinID and other eID for young people.
 
 teaser: 
     text: Information about MinID and other eID for young people.
+    external_url: https://www.ung.no/bruk-av-bankid-minid-og-annen-eid
 
 related_pages:
     - /er-du-raadgiver-eller-laerer
