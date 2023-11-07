@@ -1,10 +1,15 @@
 ---
-title: Kom i gang
+title: Kom i gang med MinID
 ingress: Følg veilederen for å opprette MinID bruker
 
 # SEO
 description: Følg veilederen for å opprette MinID bruker
 keywords: "registrer deg"
+
+navigation_link:
+    icon: /icons/Publisering.png
+    alt: Icon of app on phone
+    text: Følg veilederen for å opprette MinID bruker
 
 banner__img: /illustrations/illustration-03.png
 steps:
@@ -13,9 +18,10 @@ steps:
 menu:
     main:
         weight: 1
+        name: Kom i gang
     supervisor:
         weight: 1
-        name: 1. Introduksjon
+        name: 1. Kom i gang
 
 sitemap:
     priority: 0.8

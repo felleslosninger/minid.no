@@ -20,65 +20,21 @@
 
             <div class="row gy-3">
 
-                {{ with .Site.GetPage "/kom-i-gang/registrer-deg"}}
+                {{ with .Site.GetPage "/kom-i-gang/"}}
                 <div class="col-lg-4">
-                    <div class="navigation-card">
-                        <a class="navigation-card__content navigation-card__content--secondary" href="{{.RelPermalink}}">
-                            <div class="navigation-card__img-container navigation-card__img-container--small">
-
-                                {{ $icon := resources.GetMatch .Params.navigation_link.icon }}
-                                {{ $icon_resize := $icon.Resize "60x64 Lanczos" }}
-                                <img src="{{$icon_resize.RelPermalink}}" height="{{$icon_resize.Height}}" width="{{$icon_resize.Width}}" alt="{{.Params.navigation_link.alt}}" loading="lazy" />
-                                
-                            </div>
-                            <h3 class="navigation-card__title navigation-card__title--small">
-                                {{.Title}}
-                            </h3>
-                            <p class="navigation-card__desc navigation-card__desc--small">
-                                {{.Params.navigation_link.text}}
-                            </p>
-                        </a>
-                    </div>
+                    {{ .Render "secondary-card" }}
                 </div>
                 {{ end }}
 
                 {{ with .Site.GetPage "/kom-i-gang/minid-paa-mobil" }}
                 <div class="col-lg-4">
-                    <div class="navigation-card">
-                        <a class="navigation-card__content navigation-card__content--secondary" href="{{.RelPermalink}}">
-                            <div class="navigation-card__img-container navigation-card__img-container--small">
-                                {{ $icon := resources.GetMatch .Params.navigation_link.icon }}
-                                {{ $icon_resize := $icon.Resize "50x64 Lanczos" }}
-                                <img src="{{$icon_resize.RelPermalink}}" height="{{$icon_resize.Height}}" width="{{$icon_resize.Width}}" alt="{{.Params.navigation_link.alt}}" loading="lazy"/>
-                            </div>
-                            <h3 class="navigation-card__title navigation-card__title--small">
-                                {{.Title}}
-                            </h3>
-                            <p class="navigation-card__desc navigation-card__desc--small">
-                                {{.Params.navigation_link.text}}
-                            </p>
-                        </a>
-                    </div>
+                    {{ .Render "secondary-card" }}
                 </div>
                 {{ end }}
 
                 {{ with .Site.GetPage "/hjelp" }}
                 <div class="col-lg-4">
-                    <div class="navigation-card">
-                        <a class="navigation-card__content navigation-card__content--secondary" href="{{.RelPermalink}}">
-                            <div class="navigation-card__img-container navigation-card__img-container--small">
-                                {{ $icon := resources.GetMatch .Params.navigation_link.icon }}
-                                {{ $icon_resize := $icon.Resize "65x64 Lanczos" }}
-                                <img src="{{$icon_resize.RelPermalink}}" height="{{$icon_resize.Height}}" width="{{$icon_resize.Width}}" alt="{{.Params.navigation_link.alt}}" loading="lazy"/>
-                            </div>
-                            <h3 class="navigation-card__title navigation-card__title--small">
-                                {{.Title}}
-                            </h3>
-                            <p class="navigation-card__desc navigation-card__desc--small">
-                                {{.Params.navigation_link.text}}
-                            </p>
-                        </a>
-                    </div>
+                    {{ .Render "secondary-card" }}
                 </div>
                 {{ end }}
             </div>
@@ -90,38 +46,33 @@
             {{ $usefull_title := (i18n "usefull") }}
             {{ partial "components/component-title.html" (dict "context" . "title" $usefull_title) }}
 
-            <div class="row gy-3">
+            <div class="row gy-4">
 
                 {{ with .Site.GetPage "/hva-er-en-elektronisk-identitet" }}
                 <div class="col-lg-6">
-                    <div class="navigation-card">
-                        <a class="navigation-card__content navigation-card__content--neutral" href="{{.RelPermalink}}">
-                            <h3 class="navigation-card__title navigation-card__title--small">
-                                {{.Title}}
-                            </h3>
-                            <p class="navigation-card__desc navigation-card__desc--small">
-                                {{.Params.teaser.text}}
-                            </p>
-                        </a>
-                    </div>
+                    {{ .Render "neutral-card" }}
                 </div>
                 {{ end }}
 
                 {{ with .Site.GetPage "/fem-grunner-til-a-bruke-minid" }}
                 <div class="col-lg-6">
-                    <div class="navigation-card">
-                        <a class="navigation-card__content navigation-card__content--neutral" href="{{.RelPermalink}}">
-                            <h3 class="navigation-card__title navigation-card__title--small">
-                                {{.Title}}
-                            </h3>
-                            <p class="navigation-card__desc navigation-card__desc--small">
-                                {{.Params.teaser.text}}
-                            </p>
-                        </a>
-                    </div>
+                    {{ .Render "neutral-card" }}
                 </div>
                 {{ end }}
                 
+                {{ with .Site.GetPage "/veiledning-for-ungdomsskolen" }}
+                <div class="col-lg-6">
+                    {{ .Render "neutral-card" }}
+                </div>
+                {{ end }}
+
+                {{ with .Site.GetPage "/informasjon-om-minid-og-annen-eid" }}
+                <div class="col-lg-6">
+                    {{ .Render "neutral-card" }}
+                </div>
+                {{ end }}
+
+
             </div>
         </div>
     </div>
