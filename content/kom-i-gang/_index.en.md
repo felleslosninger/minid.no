@@ -1,5 +1,5 @@
 ---
-title: Get started
+title: Get started with MinID
 ingress: Follow the guide to create a MinID user
 
 # SEO
@@ -8,6 +8,11 @@ keywords: "registrate"
 
 banner__img: /illustrations/illustration-03.png
 
+navigation_link:
+    icon: /icons/Publisering.png
+    alt: Icon of app on phone
+    text: Follow the guide to create a MinID user
+
 url: /en/get-started/
 steps:
     next_step: en/get-started/registration/
@@ -15,9 +20,10 @@ steps:
 menu:
     main:
         weight: 1
+        name: Get started
     supervisor:
         weight: 1
-        name: 1. Introduction
+        name: 1. Get started
 
 sitemap:
     priority: 0.8
