@@ -15,3 +15,11 @@ about:
     url: https://uustatus.no/nb/erklaringer/publisert/75743196-5c35-4ae9-9dc1-93d907bd7482
   - title: MinID Cookie Policy
     url: /en/about-minid/cookie-policy
+
+contact:
+  - title: Digitaliseringsdirektoratet
+  - title: Org.nr 991 825 827
+  - title: "Email: brukerstotte@digdir.no"
+    url: "mailto:brukerstotte@digdir.no"
+  - title: "Phone: +47 800 30 300"
+    url: "tel:+4780030300"
