@@ -19,6 +19,7 @@ cd minid.digdir.no
 
 3. Install requirements
 ```shell
+git submodule update --init
 npm install
 ```
 
