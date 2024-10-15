@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Om MinID on MinID</title><link>https://minid.no/om-minid/</link><description>Recent content in Om MinID on MinID</description><generator>Hugo -- gohugo.io</generator><language>no</language><atom:link href="https://minid.no/om-minid/index.xml" rel="self" type="application/rss+xml"/><item><title>Cookie policy MinID</title><link>https://minid.no/om-minid/cookie-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://minid.no/om-minid/cookie-policy/</guid><description>MinID benytter noen få informasjonskapsler (cookies) til sikkerhet og sesjonshåndtering. Vi anser at disse er nødvendige, og kan lagres uten samtykke fra brukeren.
-Informasjonskapslene i MinID er såkalte “session scookies”, som kun lagres i minnet til brukerens nettleser, og slettes hver gang man lukker nettleseren/-vinduet eller logger ut.
-Informasjonskapslene det gjelder:
-Navn Formål Type informasjonskapsel - lagringstid Valgfrihet Mottaker minid-auth-uuid Unik ID for hver innlogging. Blir brukt som nøkkel ved mellomlagring i nettleser.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Om MinID on MinID</title><link>https://minid.no/om-minid/</link><description>Recent content in Om MinID on MinID</description><generator>Hugo</generator><language>no</language><atom:link href="https://minid.no/om-minid/index.xml" rel="self" type="application/rss+xml"/><item><title>Cookie policy MinID</title><link>https://minid.no/om-minid/cookie-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://minid.no/om-minid/cookie-policy/</guid><description>&lt;p>MinID benytter noen få informasjonskapsler (cookies) til sikkerhet og sesjonshåndtering. Vi anser at disse er nødvendige, og kan lagres uten samtykke fra brukeren.&lt;/p>
+&lt;p>Informasjonskapslene i MinID er såkalte “session scookies”, som kun lagres i minnet til brukerens nettleser, og slettes hver gang man lukker nettleseren/-vinduet eller logger ut.&lt;/p>
+&lt;p>Informasjonskapslene det gjelder:&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Navn&lt;/th>
+ &lt;th style="text-align: left">Formål&lt;/th>
+ &lt;th style="text-align: left">Type informasjonskapsel - lagringstid&lt;/th>
+ &lt;th style="text-align: left">Valgfrihet&lt;/th>
+ &lt;th style="text-align: left">Mottaker&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">minid-auth-uuid&lt;/td>
+ &lt;td style="text-align: left">Unik ID for hver innlogging. Blir brukt som nøkkel ved mellomlagring i nettleser.&lt;/td>
+ &lt;td style="text-align: left">Slettes etter avsluttet innlogging / når nettleser lukkes&lt;/td>
+ &lt;td style="text-align: left">Nødvendig&lt;/td>
+ &lt;td style="text-align: left">Digitaliserings-direktoratet&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">mind-auth-locale&lt;/td>
+ &lt;td style="text-align: left">Språkvalg.&lt;/td>
+ &lt;td style="text-align: left">Session cookie. Slettes etter avsluttet innlogging / når nettleser lukkes&lt;/td>
+ &lt;td style="text-align: left">Nødvendig&lt;/td>
+ &lt;td style="text-align: left">Digitaliserings-direktoratet&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">minid-auth-service-provider&lt;/td>
+ &lt;td style="text-align: left">Navn på tjenestetilbyderen som blir vist fram på første innloggingssiden.&lt;/td>
+ &lt;td style="text-align: left">Slettes etter avsluttet innlogging / når nettleser lukkes&lt;/td>
+ &lt;td style="text-align: left">Nødvendig&lt;/td>
+ &lt;td style="text-align: left">Digitaliserings-direktoratet&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item></channel></rss>

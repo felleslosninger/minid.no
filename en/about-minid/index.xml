@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>About MinID on MinID</title><link>https://minid.no/en/about-minid/</link><description>Recent content in About MinID on MinID</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://minid.no/en/about-minid/index.xml" rel="self" type="application/rss+xml"/><item><title>MinID Cookie Policy</title><link>https://minid.no/en/about-minid/cookie-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://minid.no/en/about-minid/cookie-policy/</guid><description>MinID uses a few cookies for security and session management. We consider these necessary and can be stored without the user&amp;rsquo;s consent.
-The cookies in MinID are so-called &amp;lsquo;session cookies,&amp;rsquo; which are only stored in the user&amp;rsquo;s browser memory and are deleted every time the browser/window is closed or when logging out.
-The cookies in question:
-Name Cookie type - storage time Optionality Recepient minid-auth-uuid Unique ID for each login. Used as a key during caching in the browser.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>About MinID on MinID</title><link>https://minid.no/en/about-minid/</link><description>Recent content in About MinID on MinID</description><generator>Hugo</generator><language>en</language><atom:link href="https://minid.no/en/about-minid/index.xml" rel="self" type="application/rss+xml"/><item><title>MinID Cookie Policy</title><link>https://minid.no/en/about-minid/cookie-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://minid.no/en/about-minid/cookie-policy/</guid><description>&lt;p>MinID uses a few cookies for security and session management. We consider these necessary and can be stored without the user&amp;rsquo;s consent.&lt;/p>
+&lt;p>The cookies in MinID are so-called &amp;lsquo;session cookies,&amp;rsquo; which are only stored in the user&amp;rsquo;s browser memory and are deleted every time the browser/window is closed or when logging out.&lt;/p>
+&lt;p>The cookies in question:&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Name&lt;/th>
+ &lt;th style="text-align: left">Cookie type - storage time&lt;/th>
+ &lt;th style="text-align: left">Optionality&lt;/th>
+ &lt;th style="text-align: left">Recepient&lt;/th>
+ &lt;th style="text-align: left">&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">minid-auth-uuid&lt;/td>
+ &lt;td style="text-align: left">Unique ID for each login. Used as a key during caching in the browser.&lt;/td>
+ &lt;td style="text-align: left">Session cookie. Deleted after the login session is completed / when the browser is closed&lt;/td>
+ &lt;td style="text-align: left">Necessary&lt;/td>
+ &lt;td style="text-align: left">the Norwegian Digitalisation Directorate (Digdir)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">mind-auth-locale&lt;/td>
+ &lt;td style="text-align: left">Language choice.&lt;/td>
+ &lt;td style="text-align: left">Session cookie. Deleted after the login session is completed / when the browser is closed&lt;/td>
+ &lt;td style="text-align: left">Necessary&lt;/td>
+ &lt;td style="text-align: left">the Norwegian Digitalisation Directorate (Digdir)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">minid-auth-service-provider&lt;/td>
+ &lt;td style="text-align: left">Name of the service provider displayed on the first login page.&lt;/td>
+ &lt;td style="text-align: left">Session cookie. Deleted after the login session is completed / when the browser is closed&lt;/td>
+ &lt;td style="text-align: left">Necessary&lt;/td>
+ &lt;td style="text-align: left">the Norwegian Digitalisation Directorate (Digdir)&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item></channel></rss>
