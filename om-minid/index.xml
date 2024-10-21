@@ -4,34 +4,34 @@
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Navn&lt;/th>
- &lt;th style="text-align: left">Formål&lt;/th>
- &lt;th style="text-align: left">Type informasjonskapsel - lagringstid&lt;/th>
- &lt;th style="text-align: left">Valgfrihet&lt;/th>
- &lt;th style="text-align: left">Mottaker&lt;/th>
+ &lt;th>Navn&lt;/th>
+ &lt;th>Formål&lt;/th>
+ &lt;th>Type informasjonskapsel - lagringstid&lt;/th>
+ &lt;th>Valgfrihet&lt;/th>
+ &lt;th>Mottaker&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">minid-auth-uuid&lt;/td>
- &lt;td style="text-align: left">Unik ID for hver innlogging. Blir brukt som nøkkel ved mellomlagring i nettleser.&lt;/td>
- &lt;td style="text-align: left">Slettes etter avsluttet innlogging / når nettleser lukkes&lt;/td>
- &lt;td style="text-align: left">Nødvendig&lt;/td>
- &lt;td style="text-align: left">Digitaliserings-direktoratet&lt;/td>
+ &lt;td>minid-auth-uuid&lt;/td>
+ &lt;td>Unik ID for hver innlogging. Blir brukt som nøkkel ved mellomlagring i nettleser.&lt;/td>
+ &lt;td>Slettes etter avsluttet innlogging / når nettleser lukkes&lt;/td>
+ &lt;td>Nødvendig&lt;/td>
+ &lt;td>Digitaliserings-direktoratet&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">mind-auth-locale&lt;/td>
- &lt;td style="text-align: left">Språkvalg.&lt;/td>
- &lt;td style="text-align: left">Session cookie. Slettes etter avsluttet innlogging / når nettleser lukkes&lt;/td>
- &lt;td style="text-align: left">Nødvendig&lt;/td>
- &lt;td style="text-align: left">Digitaliserings-direktoratet&lt;/td>
+ &lt;td>mind-auth-locale&lt;/td>
+ &lt;td>Språkvalg.&lt;/td>
+ &lt;td>Session cookie. Slettes etter avsluttet innlogging / når nettleser lukkes&lt;/td>
+ &lt;td>Nødvendig&lt;/td>
+ &lt;td>Digitaliserings-direktoratet&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">minid-auth-service-provider&lt;/td>
- &lt;td style="text-align: left">Navn på tjenestetilbyderen som blir vist fram på første innloggingssiden.&lt;/td>
- &lt;td style="text-align: left">Slettes etter avsluttet innlogging / når nettleser lukkes&lt;/td>
- &lt;td style="text-align: left">Nødvendig&lt;/td>
- &lt;td style="text-align: left">Digitaliserings-direktoratet&lt;/td>
+ &lt;td>minid-auth-service-provider&lt;/td>
+ &lt;td>Navn på tjenestetilbyderen som blir vist fram på første innloggingssiden.&lt;/td>
+ &lt;td>Slettes etter avsluttet innlogging / når nettleser lukkes&lt;/td>
+ &lt;td>Nødvendig&lt;/td>
+ &lt;td>Digitaliserings-direktoratet&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table></description></item></channel></rss>

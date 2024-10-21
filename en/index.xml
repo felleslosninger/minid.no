@@ -22,34 +22,34 @@
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Name&lt;/th>
- &lt;th style="text-align: left">Cookie type - storage time&lt;/th>
- &lt;th style="text-align: left">Optionality&lt;/th>
- &lt;th style="text-align: left">Recepient&lt;/th>
- &lt;th style="text-align: left">&lt;/th>
+ &lt;th>Name&lt;/th>
+ &lt;th>Cookie type - storage time&lt;/th>
+ &lt;th>Optionality&lt;/th>
+ &lt;th>Recepient&lt;/th>
+ &lt;th>&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">minid-auth-uuid&lt;/td>
- &lt;td style="text-align: left">Unique ID for each login. Used as a key during caching in the browser.&lt;/td>
- &lt;td style="text-align: left">Session cookie. Deleted after the login session is completed / when the browser is closed&lt;/td>
- &lt;td style="text-align: left">Necessary&lt;/td>
- &lt;td style="text-align: left">the Norwegian Digitalisation Directorate (Digdir)&lt;/td>
+ &lt;td>minid-auth-uuid&lt;/td>
+ &lt;td>Unique ID for each login. Used as a key during caching in the browser.&lt;/td>
+ &lt;td>Session cookie. Deleted after the login session is completed / when the browser is closed&lt;/td>
+ &lt;td>Necessary&lt;/td>
+ &lt;td>the Norwegian Digitalisation Directorate (Digdir)&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">mind-auth-locale&lt;/td>
- &lt;td style="text-align: left">Language choice.&lt;/td>
- &lt;td style="text-align: left">Session cookie. Deleted after the login session is completed / when the browser is closed&lt;/td>
- &lt;td style="text-align: left">Necessary&lt;/td>
- &lt;td style="text-align: left">the Norwegian Digitalisation Directorate (Digdir)&lt;/td>
+ &lt;td>mind-auth-locale&lt;/td>
+ &lt;td>Language choice.&lt;/td>
+ &lt;td>Session cookie. Deleted after the login session is completed / when the browser is closed&lt;/td>
+ &lt;td>Necessary&lt;/td>
+ &lt;td>the Norwegian Digitalisation Directorate (Digdir)&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">minid-auth-service-provider&lt;/td>
- &lt;td style="text-align: left">Name of the service provider displayed on the first login page.&lt;/td>
- &lt;td style="text-align: left">Session cookie. Deleted after the login session is completed / when the browser is closed&lt;/td>
- &lt;td style="text-align: left">Necessary&lt;/td>
- &lt;td style="text-align: left">the Norwegian Digitalisation Directorate (Digdir)&lt;/td>
+ &lt;td>minid-auth-service-provider&lt;/td>
+ &lt;td>Name of the service provider displayed on the first login page.&lt;/td>
+ &lt;td>Session cookie. Deleted after the login session is completed / when the browser is closed&lt;/td>
+ &lt;td>Necessary&lt;/td>
+ &lt;td>the Norwegian Digitalisation Directorate (Digdir)&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table></description></item><item><title>Registration</title><link>https://minid.no/en/get-started/registration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://minid.no/en/get-started/registration/</guid><description>&lt;h1 id="registration">Registration&lt;/h1>
