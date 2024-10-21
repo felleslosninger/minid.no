@@ -1,0 +1,11 @@
+services:
+
+  minid:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+    ports:
+      - "1313:1313"
+    command: /bin/sh -c 'echo "Override CMD and run npm install and debug :-)" && npm install && hugo serve --bind 0.0.0.0'
