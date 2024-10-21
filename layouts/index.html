@@ -49,22 +49,22 @@
             <div class="row gy-4">
 
                 {{ with .Site.GetPage "/hva-er-en-elektronisk-identitet" }}
-                <div class="col-lg-6">
+                <div class="col-lg-4">
                     {{ .Render "neutral-card" }}
                 </div>
                 {{ end }}
 
                 {{ with .Site.GetPage "/fem-grunner-til-a-bruke-minid" }}
-                <div class="col-lg-6">
+                <div class="col-lg-4">
                     {{ .Render "neutral-card" }}
                 </div>
                 {{ end }}
                 
                 {{ with .Site.GetPage "/veiledning-for-ungdomsskolen" }}
-                <div class="col-lg-6">
+                <div class="col-lg-4">
                     {{ .Render "neutral-card" }}
                 </div>
-                {{ end }}
+                {{ end }}          
 
                 {{ with .Site.GetPage "/informasjon-om-minid-og-annen-eid" }}
                 <div class="col-lg-6">
@@ -72,6 +72,11 @@
                 </div>
                 {{ end }}
 
+                {{ with .Site.GetPage "/minid-i-skolen-pilot" }}
+                <div class="col-lg-6">
+                    {{ .Render "neutral-card" }}
+                </div>
+                {{ end }}                    
 
             </div>
         </div>
