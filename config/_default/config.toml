@@ -34,3 +34,4 @@ enableRobotsTXT = true
 [params]
     logo = '/images/logo-minid.svg'
     global_keywords = ['digdir', 'minid', 'elektronsik', 'identitet', 'offentlig', 'digitaliseringsdirektoratet']
+    userpage = 'https://profil.minid.no'
