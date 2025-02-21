@@ -23,3 +23,5 @@
   translation: "Relaterte lenker"
 - id: useful
   translation: "Nyttig"
+- id: myprofile
+  translation: "Min profil"
