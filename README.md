@@ -32,3 +32,4 @@ hugo serve
 
 ## Theme
 - [digdir-hugo-theme](https://github.com/felleslosninger/digdir-hugo-theme)
+
