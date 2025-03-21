@@ -45,11 +45,11 @@ jobs:
           #git config --global user.name "TLP-Build"
           #git config --global user.email "helpdesk@digdir.no"
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/master'
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-          user_name: 'TLP-Build'
-          user_email: 'helpdesk@digdir.no'
+          branch: github-pages-deployment
+          folder: ./public # Source folder (output from build step)
+          target-folder: docs # Target folder (create a directory to put the deployment content in)
+          git-config-name: "TLP-Build"
+          git-config-email: "helpdesk@digdir.no"    
