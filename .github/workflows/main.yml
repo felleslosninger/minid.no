@@ -28,10 +28,28 @@ jobs:
       #- name: CNAME
       #  run: cp CNAME public/
 
+      - name: Set up SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.TLP_BUILD_SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          echo "${{ secrets.TLP_BUILD_SSH_PUBLIC_KEY }}" > ~/.ssh/id_rsa.pub
+          chmod 600 ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa.pub
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+
+      - name: Configure git to use SSH for signing
+        run: |
+          git config --global gpg.format ssh
+          git config --global user.signingkey ~/.ssh/id_rsa.pub
+          git config --global commit.gpgsign true
+          #git config --global user.name "TLP-Build"
+          #git config --global user.email "helpdesk@digdir.no"
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/master'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-
+          user_name: 'TLP-Build'
+          user_email: 'helpdesk@digdir.no'
