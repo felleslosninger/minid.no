@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bli en digital borger on MinID</title><link>https://minid.no/</link><description>Recent content in Bli en digital borger on MinID</description><generator>Hugo</generator><language>no</language><atom:link href="https://minid.no/index.xml" rel="self" type="application/rss+xml"/><item><title>Cookie policy MinID</title><link>https://minid.no/om-minid/cookie-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://minid.no/om-minid/cookie-policy/</guid><description>&lt;p>MinID benytter noen få informasjonskapsler (cookies) til sikkerhet og sesjonshåndtering. Vi anser at disse er nødvendige, og kan lagres uten samtykke fra brukeren.&lt;/p>
+&lt;p>Informasjonskapslene i MinID er såkalte “session scookies”, som kun lagres i minnet til brukerens nettleser, og slettes hver gang man lukker nettleseren/-vinduet eller logger ut.&lt;/p>
+&lt;p>Informasjonskapslene det gjelder:&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Navn&lt;/th>
+ &lt;th>Formål&lt;/th>
+ &lt;th>Type informasjonskapsel - lagringstid&lt;/th>
+ &lt;th>Valgfrihet&lt;/th>
+ &lt;th>Mottaker&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>minid-auth-uuid&lt;/td>
+ &lt;td>Unik ID for hver innlogging. Blir brukt som nøkkel ved mellomlagring i nettleser.&lt;/td>
+ &lt;td>Slettes etter avsluttet innlogging / når nettleser lukkes&lt;/td>
+ &lt;td>Nødvendig&lt;/td>
+ &lt;td>Digitaliserings-direktoratet&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>mind-auth-locale&lt;/td>
+ &lt;td>Språkvalg.&lt;/td>
+ &lt;td>Session cookie. Slettes etter avsluttet innlogging / når nettleser lukkes&lt;/td>
+ &lt;td>Nødvendig&lt;/td>
+ &lt;td>Digitaliserings-direktoratet&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>minid-auth-service-provider&lt;/td>
+ &lt;td>Navn på tjenestetilbyderen som blir vist fram på første innloggingssiden.&lt;/td>
+ &lt;td>Slettes etter avsluttet innlogging / når nettleser lukkes&lt;/td>
+ &lt;td>Nødvendig&lt;/td>
+ &lt;td>Digitaliserings-direktoratet&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>MinID på mobil</title><link>https://minid.no/kom-i-gang/minid-paa-mobil/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://minid.no/kom-i-gang/minid-paa-mobil/</guid><description>&lt;h1 id="minid-på-mobil">MinID på mobil&lt;/h1>
+&lt;p>For å bruke MinID på mobil må du enten være en MinID bruker fra før, eller ha mottatt et aktiveringsbrev.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Last ned og åpne MinID appen fra Google Play eller App Store.&lt;/p>
+&lt;p>&lt;a href="https://play.google.com/store/apps/details?id=no.digdir.minid.authenticator&amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">&lt;img alt="Last ned på Google Play" src="https://minid.no/googleplay.png">&lt;/a>&lt;a href="https://apps.apple.com/no/app/minid-app/id1555414999">&lt;img alt="Last ned på App Store" src="https://minid.no/appstore.png">&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="slik-tar-du-i-bruk-minid-app">Slik tar du i bruk MinID app&lt;/h2>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+ &lt;iframe src="https://player.vimeo.com/video/799782678" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="vimeo video" webkitallowfullscreen mozallowfullscreen allowfullscreen>&lt;/iframe>
+&lt;/div></description></item><item><title>Registrer deg</title><link>https://minid.no/kom-i-gang/registrer-deg/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://minid.no/kom-i-gang/registrer-deg/</guid><description>&lt;h1 id="registrer-deg">Registrer deg&lt;/h1>
+&lt;p>For å opprette MinID går du frem på følgende måte:&lt;/p>
+&lt;p>Bestill et aktiveringsbrev:&lt;/p>
+&lt;ul>
+&lt;li>Gå til &lt;a href="https://aktiveringsbrev.minid.no/order">aktiveringsbrev.minid.no&lt;/a>  &lt;/li>
+&lt;li>Taste inn fødselsnummer (11 siffer) &lt;/li>
+&lt;li>Aktiveringsbrev med kode sendes til folkeregistrert adresse&lt;/li>
+&lt;/ul>
+&lt;p>Når aktiveringsbrevet er mottatt, følger du instruksjonene der. &lt;/p></description></item></channel></rss>
