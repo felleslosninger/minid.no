@@ -1,0 +1,25 @@
+[
+  {
+    "relation": ["delegate_permission/common.get_login_creds"],
+    "target": {
+      "namespace": "web",
+      "site": "https://minid.no"
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.get_login_creds", "delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "no.digdir.minid.authenticator.dev",
+      "sha256_cert_fingerprints": ["40:CE:7F:EC:DB:21:EC:ED:4F:FA:22:07:BB:A8:EB:C4:A6:D5:4A:FD:64:3D:C8:17:43:E7:45:4F:FD:C4:72:64"]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.get_login_creds", "delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "no.digdir.minid.authenticator",
+      "sha256_cert_fingerprints": ["64:8D:CF:D3:FB:2E:5A:52:D7:A0:ED:86:8F:79:AB:31:10:91:1D:FA:AF:7E:17:BA:A2:86:BA:2F:97:84:DD:98"]
+    }
+  }
+]
